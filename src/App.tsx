@@ -17,7 +17,7 @@ const Stack = createNativeStackNavigator<RootStackParamList>()
 export default function App(): JSX.Element {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator initialRouteName='Home'>
         <Stack.Screen 
         name='Home' 
         component={Home} 
